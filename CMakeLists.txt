@@ -29,6 +29,4 @@ target_link_libraries(data ${GTK3_LIBRARIES} fdr bt)
 add_executable(${PROJECT_NAME} dict.c ${PROJECT_SOURCE_DIR}/lib/btn_trans.c)
 target_link_libraries(${PROJECT_NAME} ${GTK3_LIBRARIES} fdr bt)
 
-#add_executable(bt ex/timduong.c)
-#target_link_libraries(bt ${IGRAPH_LIBS} fdr)
 
