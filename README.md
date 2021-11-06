@@ -1,4 +1,14 @@
-- Thành viên nhóm chuacoten
-+ Phùng Đình Sơn 20184189
-+ Đàm Phương Dung 20184077
-+ Vi Hoàng Duy Linh 20184133
+# DICTIONARY APP RUN ON LINUX
+
+## Requirement
+- Install __Glade__ from __Ubuntu Software__
+- Install __gcc__
+
+## Run
+```
+cd b
+cmake ..
+make
+./data
+./dict
+``` 
